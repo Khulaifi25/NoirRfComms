@@ -12,7 +12,7 @@ const zenMaru = Zen_Maru_Gothic({
 });
 
 export const metadata: Metadata = {
-  title: "Noir Comms",
+  title: "NoirRf Comms",
   description: "Illustration Commissions",
 };
 
