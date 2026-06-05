@@ -1,5 +1,6 @@
 import { supabase } from "@/lib/supabase";
 import QueueBoard from "@/components/QueueBoard";
+import { QueueOrder } from "@/types/queue";
 
 export default async function QueuePage() {
 
@@ -11,7 +12,7 @@ export default async function QueuePage() {
                 client_name,
                 status,
                 created_at,
-                commission_types (
+                commission_types!orders_commission_type_id_fkey (
                     name
                 )
             `)
@@ -33,31 +34,18 @@ export default async function QueuePage() {
             "
         >
             <div className="mb-8">
-
-                <h1
-                    className="
-                        text-4xl
-                        font-bold
-                    "
-                >
+                <h1 className="text-4xl font-bold">
                     Commission Queue
                 </h1>
 
-                <p
-                    className="
-                        opacity-70
-                        mt-2
-                    "
-                >
+                <p className="opacity-70 mt-2">
                     Current commission progress and waiting list.
                 </p>
-
             </div>
 
             <QueueBoard
-                orders={data ?? []}
+                orders={(data ?? []) as unknown as QueueOrder[]}
             />
-
         </main>
     );
 }

@@ -4,7 +4,9 @@ export type QueueOrder = {
     status: string;
     created_at: string;
 
-    commission_types?: {
-        name: string;
-    } | null;
+    commission_types:
+        |   {
+            name: string;
+            }
+        | null;
 };
