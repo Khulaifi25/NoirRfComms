@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 import OrderStatusForm from "@/components/admin/OrderStatusForm";
 import AdminGuard from "@/components/AdminGuard";
 import { supabase } from "@/lib/supabase";

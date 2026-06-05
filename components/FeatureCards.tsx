@@ -64,8 +64,8 @@ export default function FeatureCards() {
                 className="
                     w-full
                     h-auto
-                    max-w-[140px]
-                    md:max-w-[220px]
+                    max-w-35
+                    md:max-w-55
                     mx-auto
                     object-contain
                     drop-shadow-xl
