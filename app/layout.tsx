@@ -14,18 +14,18 @@ const zenMaru = Zen_Maru_Gothic({
 export const metadata: Metadata = {
   metadataBase: new URL("https://noirsrfcomms.vercel.app"),
   title: "NoirRf Comms",
-  description: "This is the official website commission of illustrator NoirRf. 『こちらはイラストレーターNoirRf氏による公式ウェブサイトの依頼作品です。』",
+  description: "This is the official website commission of illustrator NoirRf.\n\n『こちらはイラストレーターNoirRf氏による公式ウェブサイトの依頼作品です。』",
 
   openGraph: {
     title: "NoirRf Comms Official Website",
     description:
-      "This is the official website commission of illustrator NoirRf. 『こちらはイラストレーターNoirRf氏による公式ウェブサイトの依頼作品です。』",
+      "This is the official website commission of illustrator NoirRf.\n\n『こちらはイラストレーターNoirRf氏による公式ウェブサイトの依頼作品です。』",
     url: "https://noirsrfcomms.vercel.app",
     siteName: "NoirRf Comms",
 
     images: [
       {
-        url: "/og-image.jpg",
+        url: "https://noirsrfcomms.vercel.app/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "NoirRf Comms",
@@ -39,8 +39,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "NoirRf Comms Official Website",
-    description: "This is the official website commission of illustrator NoirRf. 『こちらはイラストレーターNoirRf氏による公式ウェブサイトの依頼作品です。』",
-    images: ["/og-image.png"],
+    description: "This is the official website commission of illustrator NoirRf.\n\n『こちらはイラストレーターNoirRf氏による公式ウェブサイトの依頼作品です。』",
+    images: ["https://noirsrfcomms.vercel.app/og-image.jpg"],
   },
 };
 
