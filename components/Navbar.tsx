@@ -30,7 +30,7 @@ export default function Navbar() {
     const router = useRouter();
 
     const isAdmin =
-    pathname.startsWith("/admin");    
+    pathname.startsWith("/admin") && pathname !== "/admin";    
 
     // Hindari hydration mismatch
     const currentTheme = mounted ? theme : "light";

@@ -38,7 +38,7 @@ export default function MobileNavbar() {
     const router = useRouter();
 
     const isAdmin =
-        pathname.startsWith("/admin");
+        pathname.startsWith("/admin") && pathname !== "/admin";
 
     const publicMenu = [
     {
