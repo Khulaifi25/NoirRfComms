@@ -18,7 +18,7 @@ export default async function CommissionPage() {
         </h1>
 
         <p className="mb-10 text-lg">
-            Original character, personal use, commercial use,
+            Original character, Personal use, Commercial use,
             Vtuber character, Anime character, etc.
         </p>
 
