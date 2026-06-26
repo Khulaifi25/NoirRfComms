@@ -70,7 +70,7 @@ export default function CommissionInfo() {
                 <li>Teen Male (Shota, Shounen, Nekomimi/Kemonomimi, etc.)</li>
                 <li>Teen Female (Loli, Shoujo, Nekomimi/Kemonomimi, etc)</li>
                 <li>Anime/Manga/Game Characters (Fanart)</li>
-                <li>NFSW / SFW</li>
+                <li>NSFW / SFW</li>
                 </ul>
             </section>
 
